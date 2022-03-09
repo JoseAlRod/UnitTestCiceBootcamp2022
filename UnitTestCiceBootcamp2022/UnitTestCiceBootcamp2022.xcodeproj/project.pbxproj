@@ -8,26 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		BFFC2B9C27D8ACC500B8384E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2B9B27D8ACC500B8384E /* AppDelegate.swift */; };
-		BFFC2B9E27D8ACC500B8384E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2B9D27D8ACC500B8384E /* SceneDelegate.swift */; };
-		BFFC2BA027D8ACC500B8384E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2B9F27D8ACC500B8384E /* ViewController.swift */; };
-		BFFC2BA327D8ACC500B8384E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFC2BA127D8ACC500B8384E /* Main.storyboard */; };
 		BFFC2BA527D8ACC600B8384E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFC2BA427D8ACC600B8384E /* Assets.xcassets */; };
 		BFFC2BA827D8ACC600B8384E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFC2BA627D8ACC600B8384E /* LaunchScreen.storyboard */; };
+		BFFC2BB327D8B67100B8384E /* UnitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BB127D8B67100B8384E /* UnitTestViewController.swift */; };
+		BFFC2BB427D8B67100B8384E /* UnitTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFC2BB227D8B67100B8384E /* UnitTestViewController.xib */; };
+		BFFC2BB627D8B69500B8384E /* UnitTestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BB527D8B69500B8384E /* UnitTestCoordinator.swift */; };
+		BFFC2BB827D8B7A100B8384E /* UnitTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BB727D8B7A100B8384E /* UnitTestPresenter.swift */; };
+		BFFC2BBA27D8B86300B8384E /* AppCoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BB927D8B86300B8384E /* AppCoreCoordinator.swift */; };
+		BFFC2BC227D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BC127D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.swift */; };
+		BFFC2BCA27D8BCC900B8384E /* UnitTestPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC2BC927D8BCC900B8384E /* UnitTestPresenterTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFFC2BC327D8BAC300B8384E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFC2B9027D8ACC500B8384E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFC2B9727D8ACC500B8384E;
+			remoteInfo = UnitTestCiceBootcamp2022;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BFFC2B9827D8ACC500B8384E /* UnitTestCiceBootcamp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestCiceBootcamp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFC2B9B27D8ACC500B8384E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFFC2B9D27D8ACC500B8384E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFFC2B9F27D8ACC500B8384E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFFC2BA227D8ACC500B8384E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFFC2BA427D8ACC600B8384E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFC2BA727D8ACC600B8384E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFFC2BA927D8ACC600B8384E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFC2BB127D8B67100B8384E /* UnitTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestViewController.swift; sourceTree = "<group>"; };
+		BFFC2BB227D8B67100B8384E /* UnitTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnitTestViewController.xib; sourceTree = "<group>"; };
+		BFFC2BB527D8B69500B8384E /* UnitTestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCoordinator.swift; sourceTree = "<group>"; };
+		BFFC2BB727D8B7A100B8384E /* UnitTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPresenter.swift; sourceTree = "<group>"; };
+		BFFC2BB927D8B86300B8384E /* AppCoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoreCoordinator.swift; sourceTree = "<group>"; };
+		BFFC2BBF27D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestCiceBootcamp2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFC2BC127D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCiceBootcamp2022Tests.swift; sourceTree = "<group>"; };
+		BFFC2BC927D8BCC900B8384E /* UnitTestPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFFC2B9527D8ACC500B8384E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC2BBC27D8BAC300B8384E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				BFFC2B9A27D8ACC500B8384E /* UnitTestCiceBootcamp2022 */,
+				BFFC2BC027D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests */,
 				BFFC2B9927D8ACC500B8384E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				BFFC2B9827D8ACC500B8384E /* UnitTestCiceBootcamp2022.app */,
+				BFFC2BBF27D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +84,50 @@
 		BFFC2B9A27D8ACC500B8384E /* UnitTestCiceBootcamp2022 */ = {
 			isa = PBXGroup;
 			children = (
-				BFFC2B9B27D8ACC500B8384E /* AppDelegate.swift */,
-				BFFC2B9D27D8ACC500B8384E /* SceneDelegate.swift */,
-				BFFC2B9F27D8ACC500B8384E /* ViewController.swift */,
-				BFFC2BA127D8ACC500B8384E /* Main.storyboard */,
+				BFFC2BB027D8B65600B8384E /* UnitTestView */,
+				BFFC2BAF27D8B5C000B8384E /* CoreApp */,
 				BFFC2BA427D8ACC600B8384E /* Assets.xcassets */,
 				BFFC2BA627D8ACC600B8384E /* LaunchScreen.storyboard */,
 				BFFC2BA927D8ACC600B8384E /* Info.plist */,
 			);
 			path = UnitTestCiceBootcamp2022;
+			sourceTree = "<group>";
+		};
+		BFFC2BAF27D8B5C000B8384E /* CoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC2B9B27D8ACC500B8384E /* AppDelegate.swift */,
+				BFFC2BB927D8B86300B8384E /* AppCoreCoordinator.swift */,
+			);
+			path = CoreApp;
+			sourceTree = "<group>";
+		};
+		BFFC2BB027D8B65600B8384E /* UnitTestView */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC2BB127D8B67100B8384E /* UnitTestViewController.swift */,
+				BFFC2BB227D8B67100B8384E /* UnitTestViewController.xib */,
+				BFFC2BB527D8B69500B8384E /* UnitTestCoordinator.swift */,
+				BFFC2BB727D8B7A100B8384E /* UnitTestPresenter.swift */,
+			);
+			path = UnitTestView;
+			sourceTree = "<group>";
+		};
+		BFFC2BC027D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC2BC827D8BC6800B8384E /* UnitTestView */,
+				BFFC2BC127D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.swift */,
+			);
+			path = UnitTestCiceBootcamp2022Tests;
+			sourceTree = "<group>";
+		};
+		BFFC2BC827D8BC6800B8384E /* UnitTestView */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC2BC927D8BCC900B8384E /* UnitTestPresenterTests.swift */,
+			);
+			path = UnitTestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +150,24 @@
 			productReference = BFFC2B9827D8ACC500B8384E /* UnitTestCiceBootcamp2022.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFFC2BBE27D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFC2BC527D8BAC300B8384E /* Build configuration list for PBXNativeTarget "UnitTestCiceBootcamp2022Tests" */;
+			buildPhases = (
+				BFFC2BBB27D8BAC300B8384E /* Sources */,
+				BFFC2BBC27D8BAC300B8384E /* Frameworks */,
+				BFFC2BBD27D8BAC300B8384E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFC2BC427D8BAC300B8384E /* PBXTargetDependency */,
+			);
+			name = UnitTestCiceBootcamp2022Tests;
+			productName = UnitTestCiceBootcamp2022Tests;
+			productReference = BFFC2BBF27D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +180,10 @@
 				TargetAttributes = {
 					BFFC2B9727D8ACC500B8384E = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					BFFC2BBE27D8BAC300B8384E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BFFC2B9727D8ACC500B8384E;
 					};
 				};
 			};
@@ -116,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				BFFC2B9727D8ACC500B8384E /* UnitTestCiceBootcamp2022 */,
+				BFFC2BBE27D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC2BB427D8B67100B8384E /* UnitTestViewController.xib in Resources */,
 				BFFC2BA827D8ACC600B8384E /* LaunchScreen.storyboard in Resources */,
 				BFFC2BA527D8ACC600B8384E /* Assets.xcassets in Resources */,
-				BFFC2BA327D8ACC500B8384E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC2BBD27D8BAC300B8384E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +231,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFC2BA027D8ACC500B8384E /* ViewController.swift in Sources */,
+				BFFC2BB627D8B69500B8384E /* UnitTestCoordinator.swift in Sources */,
+				BFFC2BBA27D8B86300B8384E /* AppCoreCoordinator.swift in Sources */,
+				BFFC2BB327D8B67100B8384E /* UnitTestViewController.swift in Sources */,
+				BFFC2BB827D8B7A100B8384E /* UnitTestPresenter.swift in Sources */,
 				BFFC2B9C27D8ACC500B8384E /* AppDelegate.swift in Sources */,
-				BFFC2B9E27D8ACC500B8384E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC2BBB27D8BAC300B8384E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFC2BCA27D8BCC900B8384E /* UnitTestPresenterTests.swift in Sources */,
+				BFFC2BC227D8BAC300B8384E /* UnitTestCiceBootcamp2022Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		BFFC2BA127D8ACC500B8384E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFFC2BA227D8ACC500B8384E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		BFFC2BC427D8BAC300B8384E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFC2B9727D8ACC500B8384E /* UnitTestCiceBootcamp2022 */;
+			targetProxy = BFFC2BC327D8BAC300B8384E /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		BFFC2BA627D8ACC600B8384E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +398,6 @@
 				INFOPLIST_FILE = UnitTestCiceBootcamp2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +409,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +425,6 @@
 				INFOPLIST_FILE = UnitTestCiceBootcamp2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +436,43 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BFFC2BC627D8BAC300B8384E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KLG87F9965;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.UnitTestCiceBootcamp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestCiceBootcamp2022.app/UnitTestCiceBootcamp2022";
+			};
+			name = Debug;
+		};
+		BFFC2BC727D8BAC300B8384E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KLG87F9965;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cice.UnitTestCiceBootcamp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestCiceBootcamp2022.app/UnitTestCiceBootcamp2022";
 			};
 			name = Release;
 		};
@@ -355,6 +493,15 @@
 			buildConfigurations = (
 				BFFC2BAD27D8ACC600B8384E /* Debug */,
 				BFFC2BAE27D8ACC600B8384E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFC2BC527D8BAC300B8384E /* Build configuration list for PBXNativeTarget "UnitTestCiceBootcamp2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFC2BC627D8BAC300B8384E /* Debug */,
+				BFFC2BC727D8BAC300B8384E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
